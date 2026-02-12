@@ -15,10 +15,10 @@ export default function Hero({ name }: { name: string }) {
                     <Heart className="w-3 h-3 mr-2 fill-current" /> February 14, 2026
                 </Badge>
                 <h1 className="text-6xl md:text-8xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-500">
-                    Happy Birthday, <br /><span className="text-pink-500">{name}</span>
+                    Happy Birthday is coming, <br /><span className="text-pink-500">{name}</span>
                 </h1>
                 <p className="max-w-xl text-lg text-slate-500 font-medium leading-relaxed mx-auto italic">
-                    "To my favorite person and my forever Valentine."
+                    "To my favorite person and my little bumbagar"
                 </p>
             </motion.div>
             <motion.div

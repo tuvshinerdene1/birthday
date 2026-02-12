@@ -18,7 +18,7 @@ export default function BirthdayPage() {
   // Inside your page.tsx useEffect:
   useEffect(() => {
     // ENSURE THIS MATCHES THE COUNTDOWN TARGET
-    const targetDate = new Date("2026-02-13T01:31:00").getTime();
+    const targetDate = new Date("2026-02-14T00:00:00").getTime();
     const now = new Date().getTime();
 
     if (now >= targetDate) {
@@ -37,7 +37,7 @@ export default function BirthdayPage() {
       </div>
 
       <div className="relative z-10 flex flex-col gap-20 pb-32">
-        <Hero name="HerName" />
+        <Hero name="Zulaa" />
 
         <div className="px-6 -mt-32 mb-10">
           {/* We pass the setIsUnlocked function directly to the countdown */}
