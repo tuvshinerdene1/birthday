@@ -10,6 +10,7 @@ import BirthdayPlan from "@/components/shared/BirthDayPlan";
 import WholesomeLetter from "@/components/shared/WholeSomeLetter";
 import { Lock } from "lucide-react";
 import BackgroundMusic from "@/components/shared/BackGroundMusic";
+import RelationshipTimer from "@/components/shared/TogetherMinutes";
 
 export default function BirthdayPage() {
   const [isUnlocked, setIsUnlocked] = useState(false);
@@ -36,7 +37,7 @@ export default function BirthdayPage() {
         <div className={`absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-full blur-[120px] transition-colors duration-1000 ${isUnlocked ? "bg-rose-100/40" : "bg-slate-50/40"}`} />
       </div>
 
-      <div className="relative z-10 flex flex-col gap-20 pb-32">
+      <div className="relative z-10 flex flex-col gap-5 pb-32">
         <Hero name="Zulaa" />
 
         <div className="px-6 -mt-32 mb-10">
@@ -54,6 +55,7 @@ export default function BirthdayPage() {
                 transition={{ duration: 1 }}
                 className="flex flex-col gap-40"
               >
+                <RelationshipTimer />
                 <MemoryGallery />
                 <LoveSlotMachine />
                 <BirthdayPlan />

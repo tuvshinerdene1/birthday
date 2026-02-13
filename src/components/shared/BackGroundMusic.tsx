@@ -23,15 +23,15 @@ export default function BackgroundMusic() {
 
     return (
         <div className="fixed bottom-6 right-6 z-[100]">
-            <audio ref={audioRef} src="/our-song.mp3" loop />
+            <audio ref={audioRef} src="/new-song.mp3" loop />
 
             <motion.button
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 onClick={togglePlay}
                 className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-lg backdrop-blur-md transition-all ${isPlaying
-                        ? "bg-pink-500 text-white"
-                        : "bg-white/80 text-slate-600 border border-pink-100"
+                    ? "bg-pink-500 text-white"
+                    : "bg-white/80 text-slate-600 border border-pink-100"
                     }`}
             >
                 <AnimatePresence mode="wait">

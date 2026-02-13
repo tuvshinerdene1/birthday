@@ -5,8 +5,9 @@ import { Card } from "@/components/ui/card";
 import { Sparkles, PartyPopper } from "lucide-react";
 
 const reasons = [
-    "Your contagious laugh", "Your incredible kindness", "The way you support my dreams",
-    "Your taste in music", "Your beautiful smile", "Your morning energy"
+    "Хөөрхөн инээд", "Сайхан сэтгэл", "Бумбагар хацар",
+    "Хөөрхөн том нүд", "Зөөлөн чанар", "Хошин шогийн мэдрэмж", "Нойрмог байхдаа жаахан baby шиг болдог нь", "Өөдрөг энерги",
+    "Хөөрхөн иддэг", "Тэврэлт"
 ];
 
 export default function LoveSlotMachine() {
@@ -39,7 +40,7 @@ export default function LoveSlotMachine() {
                     </AnimatePresence>
                 </div>
                 <button onClick={spin} disabled={isSpinning} className="px-8 py-4 rounded-full font-bold text-white bg-slate-900 hover:bg-pink-500 transition-colors disabled:bg-slate-300">
-                    {isSpinning ? "Choosing..." : "Spin for a Reason"}
+                    {isSpinning ? "Choosing..." : "Spin"}
                 </button>
             </Card>
         </section>
