@@ -19,7 +19,7 @@ export default function BirthdayPage() {
   // Inside your page.tsx useEffect:
   useEffect(() => {
     // ENSURE THIS MATCHES THE COUNTDOWN TARGET
-    const targetDate = new Date("2026-02-14T00:00:00").getTime();
+    const targetDate = new Date("2026-05-03T00:00:00").getTime();
     const now = new Date().getTime();
 
     if (now >= targetDate) {
@@ -55,11 +55,8 @@ export default function BirthdayPage() {
                 transition={{ duration: 1 }}
                 className="flex flex-col gap-40"
               >
-                <RelationshipTimer />
-                <MemoryGallery />
-                <LoveSlotMachine />
+                {/* <RelationshipTimer /> */}
                 <BirthdayPlan />
-                <WholesomeLetter name="HerName" partnerName="YourName" />
               </motion.div>
             ) : (
               <motion.div
