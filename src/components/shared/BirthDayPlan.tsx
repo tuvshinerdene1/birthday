@@ -6,34 +6,34 @@ import { Gift, Sparkles, MapPin } from "lucide-react";
 
 const schedule = [
     {
-        time: "10:00 AM",
-        activity: "Surprise Breakfast",
-        icon: "🍳",
-        note: "Egg and ham for nutrition!"
+        time: "13:00",
+        activity: "Гэрийнх нь гадаа уулзана",
+        icon: "✨",
+        note: "Өдрийг чинийхээ инээмсэглэлийг харахаас эхлэх нь надад хамгийн сайхан эрч хүч өгдөг."
     },
     {
-        time: "01:00 PM",
-        activity: "Museum & Mystery",
-        icon: "🔍",
-        note: "Glass gallery vibes followed by a horror escape room adventure!"
+        time: "14:00",
+        activity: "Чингис хааны музей үзнэ",
+        icon: "🏛️",
+        note: "Түүхэн дурсгалт газруудаар хамтдаа алхаж, чинийхээ нүдээр ертөнцийг харах дуртай."
     },
     {
-        time: "03:00 PM",
-        activity: "Canvas Date",
-        icon: "🎨",
-        note: "Gonna fix the failed portrait hha"
+        time: "15:00",
+        activity: "Өдрийн хоол",
+        icon: "🍽️",
+        note: "Амттай хоол, халуун яриа... Зөвхөн чи бид хоёрын нандин цаг хугацаа."
     },
     {
-        time: "06:00 PM",
-        activity: "Dinner at Lovely Place",
-        icon: "🍷",
-        note: "I always thought about bringing my baby there."
+        time: "17:10",
+        activity: "Shangri-La Өргөө кино театрт кино үзнэ",
+        icon: "🎬",
+        note: "Хажууд минь суух чиний минь дулаахан мэдрэмж киноноос илүү сонирхолтой байх болно."
     },
     {
-        time: "08:00 PM",
-        activity: "Cake & Wish",
-        icon: "🎂",
-        note: "The highlight of the day. Make it a big wish! ✨"
+        time: "19:00",
+        activity: "Үндэсний цэцэрлэгт хүрээлэнд зугаална",
+        icon: "🌙",
+        note: "Одод түгсэн тэнгэрийн доор гар гараа хөтлөлцөөд алхах энэ мөч хамгийн шидэт нь. Хүслээ шивнээрэй, хайрт минь. ✨"
     },
 ];
 
@@ -123,7 +123,7 @@ export default function BirthdayPlan() {
             >
                 <div className="h-px w-20 bg-pink-100" />
                 <p className="text-center text-slate-400 text-[10px] uppercase tracking-[0.2em]">
-                    Ulaanbaatar • February 14th • 2026
+                    Ulaanbaatar • March 3rd • 2026
                 </p>
             </motion.div>
         </section>
